@@ -192,11 +192,11 @@ Step 8: End the program.
 #include<string.h>
 int main()
 {
-    char str[10];
-    char srt[10];
-    scanf("%s",str);
-    scanf("%s",srt);
-    int s = strcmp(str,srt);
+    char str1[10];
+    char srt2[10];
+    scanf("%s",str1);
+    scanf("%s",srt2);
+    int s = strcmp(str1,srt2);
     if(s==0)
     {
         printf("strings are same");
